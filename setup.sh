@@ -9,6 +9,14 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Remove unecessary packages
 pacman -R --noconfirm gnome-console xterm
 
+# Install yay
+if ! pacman -Q yay; then
+  pacman -Sy --needed git base-devel
+  git clone https://aur.archlinux.org/yay.git
+  cd yay
+  makepkg -si
+fi
+
 # Install packages
 yay -S --needed --noconfirm zsh bat 1password-bin flatpak gnome-software gnome-backgrounds gnome-font-viewer obsidian github-cli discord telegram vscode krita evolution gnome-characters network-manager-applet gnome-sound-recorder ttf-jetbrains-mono ttf-jetbrains-mono-nerd
 
