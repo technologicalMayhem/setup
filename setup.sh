@@ -33,7 +33,8 @@ com.github.tchx84.Flatseal \
 app.drey.Dialect \
 io.missioncenter.MissionCenter \
 com.usebottles.bottles \
-org.gnome.baobab
+org.gnome.baobab \
+ca.desrt.dconf-editor
 
 ###                  ###
 #  Configure packages  #
