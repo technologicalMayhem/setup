@@ -1,0 +1,6 @@
+[/]
+font-size=11
+formatter='01_luxon'
+pattern='EEE  y-MM-dd  HH:mm'
+text-align='center'
+update-level=0

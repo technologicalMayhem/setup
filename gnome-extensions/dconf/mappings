@@ -1,0 +1,7 @@
+declare -A dconf_mapping
+dconf_mapping["dash-to-dock"]="/org/gnome/shell/extensions/dash-to-dock/"
+dconf_mapping["date-menu-formatter"]="/org/gnome/shell/extensions/date-menu-formatter/"
+dconf_mapping["ddterm"]="/com/github/amezin/ddterm/"
+dconf_mapping["burn-my-windows"]="/org/gnome/shell/extensions/burn-my-windows/"
+dconf_mapping["vertical-workspaces"]="/org/gnome/shell/extensions/vertical-workspaces/"
+dconf_mapping["alphabetical-app-grid"]="/org/gnome/shell/extensions/alphabetical-app-grid/"
